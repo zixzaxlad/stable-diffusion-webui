@@ -3,8 +3,7 @@
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS= --xformers --api --autolaunch --theme=dark  --no-half --disable-nan-check
+set COMMANDLINE_ARGS= --xformers --api --autolaunch --theme=dark --listen
 
-git pull
 call webui.bat
  
